@@ -13,4 +13,8 @@
         JENIS_KAMAR.jenisKamar.DeleteDataJenisKamarByIDDatabase(JENIS_KAMAR.selectedtablejeniskamar)
         Me.Close()
     End Sub
+
+    Private Sub LblJenisKamarHapus_Click(sender As Object, e As EventArgs) Handles LblJenisKamarHapus.Click
+
+    End Sub
 End Class

@@ -22,75 +22,81 @@ Partial Class EDIT_JENIS_KAMAR
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.TxtHargaKamarPermalam = New System.Windows.Forms.TextBox()
+        Me.TxtJenisKamar = New System.Windows.Forms.TextBox()
+        Me.LblHargaKamarPermalam = New System.Windows.Forms.Label()
+        Me.LblKeteranganJenisKamar = New System.Windows.Forms.Label()
         Me.LblJenisKamar = New System.Windows.Forms.Label()
         Me.BtnSimpanJenisKamar = New System.Windows.Forms.Button()
-        Me.LblKeteranganJenisKamar = New System.Windows.Forms.Label()
-        Me.LblHargaKamarPermalam = New System.Windows.Forms.Label()
-        Me.TxtJenisKamar = New System.Windows.Forms.TextBox()
-        Me.TxtHargaKamarPermalam = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'LblJenisKamar
+        'TxtHargaKamarPermalam
         '
-        Me.LblJenisKamar.AutoSize = True
-        Me.LblJenisKamar.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblJenisKamar.Location = New System.Drawing.Point(117, 34)
-        Me.LblJenisKamar.Name = "LblJenisKamar"
-        Me.LblJenisKamar.Size = New System.Drawing.Size(179, 28)
-        Me.LblJenisKamar.TabIndex = 9
-        Me.LblJenisKamar.Text = "Edit Jenis Kamar"
+        Me.TxtHargaKamarPermalam.Font = New System.Drawing.Font("Poor Richard", 16.2!)
+        Me.TxtHargaKamarPermalam.Location = New System.Drawing.Point(405, 222)
+        Me.TxtHargaKamarPermalam.Margin = New System.Windows.Forms.Padding(4)
+        Me.TxtHargaKamarPermalam.Name = "TxtHargaKamarPermalam"
+        Me.TxtHargaKamarPermalam.Size = New System.Drawing.Size(240, 38)
+        Me.TxtHargaKamarPermalam.TabIndex = 19
         '
-        'BtnSimpanJenisKamar
+        'TxtJenisKamar
         '
-        Me.BtnSimpanJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.BtnSimpanJenisKamar.Location = New System.Drawing.Point(306, 221)
-        Me.BtnSimpanJenisKamar.Name = "BtnSimpanJenisKamar"
-        Me.BtnSimpanJenisKamar.Size = New System.Drawing.Size(110, 42)
-        Me.BtnSimpanJenisKamar.TabIndex = 7
-        Me.BtnSimpanJenisKamar.Text = "SIMPAN"
-        Me.BtnSimpanJenisKamar.UseVisualStyleBackColor = True
-        '
-        'LblKeteranganJenisKamar
-        '
-        Me.LblKeteranganJenisKamar.AutoSize = True
-        Me.LblKeteranganJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.LblKeteranganJenisKamar.Location = New System.Drawing.Point(46, 103)
-        Me.LblKeteranganJenisKamar.Name = "LblKeteranganJenisKamar"
-        Me.LblKeteranganJenisKamar.Size = New System.Drawing.Size(98, 22)
-        Me.LblKeteranganJenisKamar.TabIndex = 10
-        Me.LblKeteranganJenisKamar.Text = "Jenis Kamar"
+        Me.TxtJenisKamar.Font = New System.Drawing.Font("Poor Richard", 16.2!)
+        Me.TxtJenisKamar.Location = New System.Drawing.Point(405, 169)
+        Me.TxtJenisKamar.Margin = New System.Windows.Forms.Padding(4)
+        Me.TxtJenisKamar.Name = "TxtJenisKamar"
+        Me.TxtJenisKamar.Size = New System.Drawing.Size(240, 38)
+        Me.TxtJenisKamar.TabIndex = 18
         '
         'LblHargaKamarPermalam
         '
         Me.LblHargaKamarPermalam.AutoSize = True
         Me.LblHargaKamarPermalam.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.LblHargaKamarPermalam.Location = New System.Drawing.Point(46, 143)
+        Me.LblHargaKamarPermalam.Location = New System.Drawing.Point(153, 218)
+        Me.LblHargaKamarPermalam.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblHargaKamarPermalam.Name = "LblHargaKamarPermalam"
-        Me.LblHargaKamarPermalam.Size = New System.Drawing.Size(183, 22)
-        Me.LblHargaKamarPermalam.TabIndex = 11
+        Me.LblHargaKamarPermalam.Size = New System.Drawing.Size(232, 28)
+        Me.LblHargaKamarPermalam.TabIndex = 17
         Me.LblHargaKamarPermalam.Text = "Harga Kamar Permalam"
         '
-        'TxtJenisKamar
+        'LblKeteranganJenisKamar
         '
-        Me.TxtJenisKamar.Font = New System.Drawing.Font("Poor Richard", 16.2!)
-        Me.TxtJenisKamar.Location = New System.Drawing.Point(235, 103)
-        Me.TxtJenisKamar.Name = "TxtJenisKamar"
-        Me.TxtJenisKamar.Size = New System.Drawing.Size(181, 32)
-        Me.TxtJenisKamar.TabIndex = 12
+        Me.LblKeteranganJenisKamar.AutoSize = True
+        Me.LblKeteranganJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
+        Me.LblKeteranganJenisKamar.Location = New System.Drawing.Point(153, 169)
+        Me.LblKeteranganJenisKamar.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblKeteranganJenisKamar.Name = "LblKeteranganJenisKamar"
+        Me.LblKeteranganJenisKamar.Size = New System.Drawing.Size(122, 28)
+        Me.LblKeteranganJenisKamar.TabIndex = 16
+        Me.LblKeteranganJenisKamar.Text = "Jenis Kamar"
         '
-        'TxtHargaKamarPermalam
+        'LblJenisKamar
         '
-        Me.TxtHargaKamarPermalam.Font = New System.Drawing.Font("Poor Richard", 16.2!)
-        Me.TxtHargaKamarPermalam.Location = New System.Drawing.Point(235, 146)
-        Me.TxtHargaKamarPermalam.Name = "TxtHargaKamarPermalam"
-        Me.TxtHargaKamarPermalam.Size = New System.Drawing.Size(181, 32)
-        Me.TxtHargaKamarPermalam.TabIndex = 13
+        Me.LblJenisKamar.AutoSize = True
+        Me.LblJenisKamar.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblJenisKamar.Location = New System.Drawing.Point(248, 84)
+        Me.LblJenisKamar.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblJenisKamar.Name = "LblJenisKamar"
+        Me.LblJenisKamar.Size = New System.Drawing.Size(221, 35)
+        Me.LblJenisKamar.TabIndex = 15
+        Me.LblJenisKamar.Text = "Edit Jenis Kamar"
+        '
+        'BtnSimpanJenisKamar
+        '
+        Me.BtnSimpanJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
+        Me.BtnSimpanJenisKamar.Location = New System.Drawing.Point(500, 314)
+        Me.BtnSimpanJenisKamar.Margin = New System.Windows.Forms.Padding(4)
+        Me.BtnSimpanJenisKamar.Name = "BtnSimpanJenisKamar"
+        Me.BtnSimpanJenisKamar.Size = New System.Drawing.Size(147, 52)
+        Me.BtnSimpanJenisKamar.TabIndex = 14
+        Me.BtnSimpanJenisKamar.Text = "SIMPAN"
+        Me.BtnSimpanJenisKamar.UseVisualStyleBackColor = True
         '
         'EDIT_JENIS_KAMAR
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(450, 275)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.TxtHargaKamarPermalam)
         Me.Controls.Add(Me.TxtJenisKamar)
         Me.Controls.Add(Me.LblHargaKamarPermalam)
@@ -98,16 +104,16 @@ Partial Class EDIT_JENIS_KAMAR
         Me.Controls.Add(Me.LblJenisKamar)
         Me.Controls.Add(Me.BtnSimpanJenisKamar)
         Me.Name = "EDIT_JENIS_KAMAR"
-        Me.Text = "Edit Jenis Kamar"
+        Me.Text = "EDIT_JENIS_KAMAR"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
+    Friend WithEvents TxtHargaKamarPermalam As TextBox
+    Friend WithEvents TxtJenisKamar As TextBox
+    Friend WithEvents LblHargaKamarPermalam As Label
+    Friend WithEvents LblKeteranganJenisKamar As Label
     Friend WithEvents LblJenisKamar As Label
     Friend WithEvents BtnSimpanJenisKamar As Button
-    Friend WithEvents LblKeteranganJenisKamar As Label
-    Friend WithEvents LblHargaKamarPermalam As Label
-    Friend WithEvents TxtJenisKamar As TextBox
-    Friend WithEvents TxtHargaKamarPermalam As TextBox
 End Class

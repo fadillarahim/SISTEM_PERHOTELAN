@@ -1,5 +1,4 @@
 ﻿Public Class EDIT_JENIS_KAMAR
-
     Public Sub New()
 
         ' this call is required by the designer.
@@ -20,10 +19,12 @@
         JENIS_KAMAR.jenisKamar.UpdateDataJenisKamarByIDDatabase(JENIS_KAMAR.selectedtablejeniskamar,
                                                                 JENIS_KAMAR.jenisKamar.jenisKamarProperty,
                                                                 JENIS_KAMAR.jenisKamar.hargaPermalamProperty)
-        JENIS_KAMAR.Show()
+
         Me.Close()
 
     End Sub
+
+
 
     Private Sub TxtJenisKamar_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxtJenisKamar.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then

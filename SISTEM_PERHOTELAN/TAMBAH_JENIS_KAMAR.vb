@@ -8,7 +8,6 @@
                                                         JENIS_KAMAR.jenisKamar.hargaPermalamProperty)
 
 
-        JENIS_KAMAR.Show()
         Me.Close()
     End Sub
 
@@ -25,4 +24,5 @@
             MessageBox.Show("Mohon hanya memasukan angka")
         End If
     End Sub
+
 End Class
