@@ -73,17 +73,53 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="BOOKING_KAMAR.Designer.vb">
+      <DependentUpon>BOOKING_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BOOKING_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="CHECK_IN.Designer.vb">
+      <DependentUpon>CHECK_IN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHECK_IN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHECK_OUT.Designer.vb">
+      <DependentUpon>CHECK_OUT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHECK_OUT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PILIH_KAMAR.Designer.vb">
+      <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PILIH_JENIS_KAMAR.Designer.vb">
+      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_JENIS_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PILIH_TAMU.Designer.vb">
+      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_TAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HAPUS_BOOKING_KAMAR.Designer.vb">
+      <DependentUpon>HAPUS_BOOKING_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HAPUS_BOOKING_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,6 +133,27 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BOOKING_KAMAR.resx">
+      <DependentUpon>BOOKING_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHECK_IN.resx">
+      <DependentUpon>CHECK_IN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHECK_OUT.resx">
+      <DependentUpon>CHECK_OUT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_KAMAR.resx">
+      <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_JENIS_KAMAR.resx">
+      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_TAMU.resx">
+      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HAPUS_BOOKING_KAMAR.resx">
+      <DependentUpon>HAPUS_BOOKING_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
