@@ -208,6 +208,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PILIH_KAMAR.Designer.vb">
+      <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TAMBAH_KAMAR.Designer.vb">
+      <DependentUpon>TAMBAH_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TAMBAH_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BOOKING_KAMAR.resx">
@@ -242,6 +255,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_KAMAR.resx">
+      <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAMBAH_KAMAR.resx">
+      <DependentUpon>TAMBAH_KAMAR.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
