@@ -22,47 +22,47 @@ Partial Class PILIH_TAMU
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnambiltamu = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.dgvambiltamu = New System.Windows.Forms.DataGridView()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnambiltamu = New System.Windows.Forms.Button()
         CType(Me.dgvambiltamu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'btnambiltamu
+        'dgvambiltamu
         '
-        Me.btnambiltamu.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnambiltamu.Location = New System.Drawing.Point(309, 389)
-        Me.btnambiltamu.Name = "btnambiltamu"
-        Me.btnambiltamu.Size = New System.Drawing.Size(180, 46)
-        Me.btnambiltamu.TabIndex = 40
-        Me.btnambiltamu.Text = "AMBIL"
-        Me.btnambiltamu.UseVisualStyleBackColor = True
+        Me.dgvambiltamu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvambiltamu.Location = New System.Drawing.Point(89, 113)
+        Me.dgvambiltamu.Name = "dgvambiltamu"
+        Me.dgvambiltamu.RowHeadersWidth = 51
+        Me.dgvambiltamu.RowTemplate.Height = 24
+        Me.dgvambiltamu.Size = New System.Drawing.Size(622, 258)
+        Me.dgvambiltamu.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(243, 16)
+        Me.Label1.Location = New System.Drawing.Point(243, 37)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(317, 35)
-        Me.Label1.TabIndex = 39
+        Me.Label1.TabIndex = 1
         Me.Label1.Text = "DAFTAR TAMU HOTEL"
         '
-        'dgvambiltamu
+        'btnambiltamu
         '
-        Me.dgvambiltamu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvambiltamu.Location = New System.Drawing.Point(89, 92)
-        Me.dgvambiltamu.Name = "dgvambiltamu"
-        Me.dgvambiltamu.RowHeadersWidth = 51
-        Me.dgvambiltamu.RowTemplate.Height = 24
-        Me.dgvambiltamu.Size = New System.Drawing.Size(622, 258)
-        Me.dgvambiltamu.TabIndex = 38
+        Me.btnambiltamu.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnambiltamu.Location = New System.Drawing.Point(309, 410)
+        Me.btnambiltamu.Name = "btnambiltamu"
+        Me.btnambiltamu.Size = New System.Drawing.Size(180, 46)
+        Me.btnambiltamu.TabIndex = 37
+        Me.btnambiltamu.Text = "AMBIL"
+        Me.btnambiltamu.UseVisualStyleBackColor = True
         '
         'PILIH_TAMU
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 497)
         Me.Controls.Add(Me.btnambiltamu)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.dgvambiltamu)
@@ -74,7 +74,7 @@ Partial Class PILIH_TAMU
 
     End Sub
 
-    Friend WithEvents btnambiltamu As Button
-    Friend WithEvents Label1 As Label
     Friend WithEvents dgvambiltamu As DataGridView
+    Friend WithEvents Label1 As Label
+    Friend WithEvents btnambiltamu As Button
 End Class

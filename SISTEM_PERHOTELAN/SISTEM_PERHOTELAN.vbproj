@@ -123,13 +123,6 @@
     <Compile Include="DAFTAR_TAMU.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BOOKING_KAMAR.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BOOKING_KAMAR.Designer.vb">
-      <DependentUpon>BOOKING_KAMAR.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="EDIT_TAMU.Designer.vb">
       <DependentUpon>EDIT_TAMU.vb</DependentUpon>
     </Compile>
@@ -164,6 +157,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PILIH_TAMU.Designer.vb">
+      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_TAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SIGN_UP.Designer.vb">
       <DependentUpon>SIGN_UP.vb</DependentUpon>
     </Compile>
@@ -189,9 +188,6 @@
     <EmbeddedResource Include="DAFTAR_TAMU.resx">
       <DependentUpon>DAFTAR_TAMU.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BOOKING_KAMAR.resx">
-      <DependentUpon>BOOKING_KAMAR.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EDIT_TAMU.resx">
       <DependentUpon>EDIT_TAMU.vb</DependentUpon>
     </EmbeddedResource>
@@ -206,6 +202,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_TAMU.resx">
+      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SIGN_UP.resx">
       <DependentUpon>SIGN_UP.vb</DependentUpon>

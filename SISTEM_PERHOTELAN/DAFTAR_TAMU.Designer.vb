@@ -42,7 +42,7 @@ Partial Class DAFTAR_TAMU
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(228, 53)
+        Me.Label1.Location = New System.Drawing.Point(245, 71)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(317, 35)
         Me.Label1.TabIndex = 0
@@ -94,8 +94,8 @@ Partial Class DAFTAR_TAMU
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BOOKINGKAMARToolStripMenuItem, Me.TAMUToolStripMenuItem, Me.JENISKAMARToolStripMenuItem, Me.KAMARToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(809, 34)
-        Me.MenuStrip1.TabIndex = 40
+        Me.MenuStrip1.Size = New System.Drawing.Size(809, 33)
+        Me.MenuStrip1.TabIndex = 41
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'BOOKINGKAMARToolStripMenuItem
@@ -103,40 +103,40 @@ Partial Class DAFTAR_TAMU
         Me.BOOKINGKAMARToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CHECKINToolStripMenuItem, Me.CHECKOUTToolStripMenuItem})
         Me.BOOKINGKAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BOOKINGKAMARToolStripMenuItem.Name = "BOOKINGKAMARToolStripMenuItem"
-        Me.BOOKINGKAMARToolStripMenuItem.Size = New System.Drawing.Size(210, 30)
+        Me.BOOKINGKAMARToolStripMenuItem.Size = New System.Drawing.Size(204, 29)
         Me.BOOKINGKAMARToolStripMenuItem.Text = "BOOKING KAMAR"
         '
         'CHECKINToolStripMenuItem
         '
         Me.CHECKINToolStripMenuItem.Name = "CHECKINToolStripMenuItem"
-        Me.CHECKINToolStripMenuItem.Size = New System.Drawing.Size(224, 30)
+        Me.CHECKINToolStripMenuItem.Size = New System.Drawing.Size(214, 30)
         Me.CHECKINToolStripMenuItem.Text = "CHECK IN"
         '
         'CHECKOUTToolStripMenuItem
         '
         Me.CHECKOUTToolStripMenuItem.Name = "CHECKOUTToolStripMenuItem"
-        Me.CHECKOUTToolStripMenuItem.Size = New System.Drawing.Size(224, 30)
+        Me.CHECKOUTToolStripMenuItem.Size = New System.Drawing.Size(214, 30)
         Me.CHECKOUTToolStripMenuItem.Text = "CHECK OUT"
         '
         'TAMUToolStripMenuItem
         '
         Me.TAMUToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 13.2!)
         Me.TAMUToolStripMenuItem.Name = "TAMUToolStripMenuItem"
-        Me.TAMUToolStripMenuItem.Size = New System.Drawing.Size(86, 30)
+        Me.TAMUToolStripMenuItem.Size = New System.Drawing.Size(84, 29)
         Me.TAMUToolStripMenuItem.Text = "TAMU"
         '
         'JENISKAMARToolStripMenuItem
         '
         Me.JENISKAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 13.2!)
         Me.JENISKAMARToolStripMenuItem.Name = "JENISKAMARToolStripMenuItem"
-        Me.JENISKAMARToolStripMenuItem.Size = New System.Drawing.Size(163, 30)
+        Me.JENISKAMARToolStripMenuItem.Size = New System.Drawing.Size(157, 29)
         Me.JENISKAMARToolStripMenuItem.Text = "JENIS KAMAR"
         '
         'KAMARToolStripMenuItem
         '
         Me.KAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 13.2!)
         Me.KAMARToolStripMenuItem.Name = "KAMARToolStripMenuItem"
-        Me.KAMARToolStripMenuItem.Size = New System.Drawing.Size(106, 30)
+        Me.KAMARToolStripMenuItem.Size = New System.Drawing.Size(102, 29)
         Me.KAMARToolStripMenuItem.Text = "KAMAR"
         '
         'DAFTAR_TAMU
@@ -144,13 +144,12 @@ Partial Class DAFTAR_TAMU
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(809, 766)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.dgvtamu)
         Me.Controls.Add(Me.btnhapustamu)
         Me.Controls.Add(Me.btnedittamu)
         Me.Controls.Add(Me.btntambahtamu)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "DAFTAR_TAMU"
         Me.Text = "DAFTAR TAMU"
         CType(Me.dgvtamu, System.ComponentModel.ISupportInitialize).EndInit()

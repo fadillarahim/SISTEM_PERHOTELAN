@@ -7,6 +7,7 @@ Public Class DAFTAR_TAMU
     Public Shared selectedtabletamu
     Public Shared selectedtabletamunama As String
 
+
     Public Sub New()
 
         ' This call is required by the designer.
@@ -31,17 +32,23 @@ Public Class DAFTAR_TAMU
     End Sub
 
     Private Sub btnedittamu_Click(sender As Object, e As EventArgs) Handles btnedittamu.Click
-        Dim selectedtamu As List(Of String) = tamu.GetDataTamuByIDDatabase(selectedtabletamu)
 
-        tamu.niktamuProperty = selectedtamu(1)
-        tamu.namatamuProperty = selectedtamu(2)
-        tamu.alamattamuProperty = selectedtamu(3)
-        tamu.jeniskelamintamuProperty = selectedtamu(4)
+        If selectedtabletamu IsNot Nothing Then
+            Dim selectedtamu As List(Of String) = tamu.GetDataTamuByIDDatabase(selectedtabletamu)
 
-        Dim FORM_EDIT_TAMU = New EDIT_TAMU
-        FORM_EDIT_TAMU.Show()
-        Me.Close()
 
+            tamu.niktamuProperty = selectedtamu(1)
+            tamu.namatamuProperty = selectedtamu(2)
+            tamu.alamattamuProperty = selectedtamu(3)
+            tamu.jeniskelamintamuProperty = selectedtamu(4)
+
+            Dim FORM_EDIT_TAMU = New EDIT_TAMU
+            FORM_EDIT_TAMU.Show()
+            Me.Close()
+
+        Else
+            MessageBox.Show("Silahkan Select terlebih dahulu data pada tabel")
+        End If
     End Sub
 
     Private Sub DAFTAR_TAMU_Activated(sender As Object, e As EventArgs) Handles Me.Activated
@@ -52,8 +59,8 @@ Public Class DAFTAR_TAMU
 
     Private Sub reloadDataTableDatabase()
         dgvtamu.DataSource = tamu.GetDataTamuDatabase()
+        PILIH_TAMU.dgvambiltamu.DataSource = tamu.GetDataTamuDatabase()
     End Sub
-
 
     Private Sub dgvtamu_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvtamu.CellClick
 
@@ -65,29 +72,35 @@ Public Class DAFTAR_TAMU
         selectedtabletamunama = selectedrow.Cells(2).Value
     End Sub
 
+    'INI HARUS DIHAPUS NTAR
+
     Private Sub BOOKINGKAMARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BOOKINGKAMARToolStripMenuItem.Click
         Dim form_booking_kamar = New BOOKING_KAMAR
-        form_booking_kamar.show()
-
+        form_booking_kamar.Show()
+        Me.Close()
     End Sub
-
-    Private Sub JENISKAMARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JENISKAMARToolStripMenuItem.Click
-        Dim form_jenis_kamar = New JENIS_KAMAR
-        form_jenis_kamar.show()
-    End Sub
-
-    Private Sub KAMARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KAMARToolStripMenuItem.Click
-        Dim form_kamar = New KAMAR
-        form_kamar.show()
-    End Sub
-
     Private Sub CHECKINToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CHECKINToolStripMenuItem.Click
         Dim form_check_in = New CHECK_IN
-        form_check_in.show()
+        form_check_in.Show()
+        Me.Close()
     End Sub
 
     Private Sub CHECKOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CHECKOUTToolStripMenuItem.Click
         Dim form_check_out = New CHECK_OUT
-        form_check_out.show()
+        form_check_out.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub JENISKAMARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JENISKAMARToolStripMenuItem.Click
+        Dim form_jenis_kamar = New JENIS_KAMAR
+        form_jenis_kamar.Show()
+        Me.Close()
+    End Sub
+
+
+    Private Sub KAMARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KAMARToolStripMenuItem.Click
+        Dim form_kamar = New KAMAR
+        form_kamar.Show()
+        Me.Close()
     End Sub
 End Class

@@ -23,10 +23,10 @@
         If data_user.Count > 0 Then
             WELCOME_PAGE.users.usernameproperty = data_user(1)
             'ini yg benar yg di bawah
-            'bookingkamar.Show()
+            BOOKING_KAMAR.Show()
 
             'ini yg salah yg form BUKU_TAMU.SHOW . HAPUS AJA NTAR YAKKK
-            DAFTAR_TAMU.Show()
+            'DAFTAR_TAMU.Show()
 
             Me.Hide()
         Else
