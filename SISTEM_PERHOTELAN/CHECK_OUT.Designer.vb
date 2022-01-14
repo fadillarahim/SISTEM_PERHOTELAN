@@ -43,7 +43,7 @@ Partial Class CHECK_OUT
         '
         Me.dtpcheckout.Font = New System.Drawing.Font("Poor Richard", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpcheckout.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpcheckout.Location = New System.Drawing.Point(242, 409)
+        Me.dtpcheckout.Location = New System.Drawing.Point(233, 439)
         Me.dtpcheckout.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.dtpcheckout.Name = "dtpcheckout"
         Me.dtpcheckout.Size = New System.Drawing.Size(314, 34)
@@ -51,30 +51,31 @@ Partial Class CHECK_OUT
         '
         'BtnCO
         '
+        Me.BtnCO.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnCO.Font = New System.Drawing.Font("Poor Richard", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCO.Location = New System.Drawing.Point(296, 600)
+        Me.BtnCO.Location = New System.Drawing.Point(287, 628)
         Me.BtnCO.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnCO.Name = "BtnCO"
-        Me.BtnCO.Size = New System.Drawing.Size(195, 31)
+        Me.BtnCO.Size = New System.Drawing.Size(198, 52)
         Me.BtnCO.TabIndex = 10
         Me.BtnCO.Text = "CHECK OUT"
-        Me.BtnCO.UseVisualStyleBackColor = True
+        Me.BtnCO.UseVisualStyleBackColor = False
         '
         'LblNominalByr
         '
-        Me.LblNominalByr.AutoSize = True
         Me.LblNominalByr.Font = New System.Drawing.Font("Poor Richard", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblNominalByr.Location = New System.Drawing.Point(321, 524)
+        Me.LblNominalByr.Location = New System.Drawing.Point(266, 548)
         Me.LblNominalByr.Name = "LblNominalByr"
-        Me.LblNominalByr.Size = New System.Drawing.Size(26, 28)
+        Me.LblNominalByr.Size = New System.Drawing.Size(240, 54)
         Me.LblNominalByr.TabIndex = 9
         Me.LblNominalByr.Text = "0"
+        Me.LblNominalByr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'LblTtlByr
         '
         Me.LblTtlByr.AutoSize = True
         Me.LblTtlByr.Font = New System.Drawing.Font("Poor Richard", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblTtlByr.Location = New System.Drawing.Point(343, 463)
+        Me.LblTtlByr.Location = New System.Drawing.Point(334, 493)
         Me.LblTtlByr.Name = "LblTtlByr"
         Me.LblTtlByr.Size = New System.Drawing.Size(98, 23)
         Me.LblTtlByr.TabIndex = 8
@@ -83,10 +84,10 @@ Partial Class CHECK_OUT
         'LblLogoCO
         '
         Me.LblLogoCO.AutoSize = True
-        Me.LblLogoCO.Font = New System.Drawing.Font("Poor Richard", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblLogoCO.Location = New System.Drawing.Point(308, 28)
+        Me.LblLogoCO.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.LblLogoCO.Location = New System.Drawing.Point(290, 31)
         Me.LblLogoCO.Name = "LblLogoCO"
-        Me.LblLogoCO.Size = New System.Drawing.Size(167, 31)
+        Me.LblLogoCO.Size = New System.Drawing.Size(186, 35)
         Me.LblLogoCO.TabIndex = 7
         Me.LblLogoCO.Text = " CHECK OUT"
         '
@@ -94,7 +95,7 @@ Partial Class CHECK_OUT
         '
         Me.lbl1.AutoSize = True
         Me.lbl1.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl1.Location = New System.Drawing.Point(173, 161)
+        Me.lbl1.Location = New System.Drawing.Point(164, 191)
         Me.lbl1.Name = "lbl1"
         Me.lbl1.Size = New System.Drawing.Size(122, 28)
         Me.lbl1.TabIndex = 12
@@ -104,7 +105,7 @@ Partial Class CHECK_OUT
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(173, 218)
+        Me.Label1.Location = New System.Drawing.Point(164, 248)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(133, 28)
         Me.Label1.TabIndex = 13
@@ -114,7 +115,7 @@ Partial Class CHECK_OUT
         '
         Me.lblnamatamu.AutoSize = True
         Me.lblnamatamu.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblnamatamu.Location = New System.Drawing.Point(484, 161)
+        Me.lblnamatamu.Location = New System.Drawing.Point(475, 191)
         Me.lblnamatamu.Name = "lblnamatamu"
         Me.lblnamatamu.Size = New System.Drawing.Size(122, 28)
         Me.lblnamatamu.TabIndex = 14
@@ -124,7 +125,7 @@ Partial Class CHECK_OUT
         '
         Me.lblnamakamar.AutoSize = True
         Me.lblnamakamar.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblnamakamar.Location = New System.Drawing.Point(484, 218)
+        Me.lblnamakamar.Location = New System.Drawing.Point(475, 248)
         Me.lblnamakamar.Name = "lblnamakamar"
         Me.lblnamakamar.Size = New System.Drawing.Size(133, 28)
         Me.lblnamakamar.TabIndex = 15
@@ -134,7 +135,7 @@ Partial Class CHECK_OUT
         '
         Me.lblidbookingkamar.AutoSize = True
         Me.lblidbookingkamar.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblidbookingkamar.Location = New System.Drawing.Point(484, 101)
+        Me.lblidbookingkamar.Location = New System.Drawing.Point(475, 131)
         Me.lblidbookingkamar.Name = "lblidbookingkamar"
         Me.lblidbookingkamar.Size = New System.Drawing.Size(122, 28)
         Me.lblidbookingkamar.TabIndex = 17
@@ -144,7 +145,7 @@ Partial Class CHECK_OUT
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(173, 101)
+        Me.Label3.Location = New System.Drawing.Point(164, 131)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(116, 28)
         Me.Label3.TabIndex = 16
@@ -154,7 +155,7 @@ Partial Class CHECK_OUT
         '
         Me.lbltglcheckin.AutoSize = True
         Me.lbltglcheckin.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbltglcheckin.Location = New System.Drawing.Point(487, 335)
+        Me.lbltglcheckin.Location = New System.Drawing.Point(478, 365)
         Me.lbltglcheckin.Name = "lbltglcheckin"
         Me.lbltglcheckin.Size = New System.Drawing.Size(133, 28)
         Me.lbltglcheckin.TabIndex = 19
@@ -164,7 +165,7 @@ Partial Class CHECK_OUT
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(176, 335)
+        Me.Label4.Location = New System.Drawing.Point(167, 365)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(171, 28)
         Me.Label4.TabIndex = 18
@@ -174,7 +175,7 @@ Partial Class CHECK_OUT
         '
         Me.lblhargapermalam.AutoSize = True
         Me.lblhargapermalam.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblhargapermalam.Location = New System.Drawing.Point(487, 274)
+        Me.lblhargapermalam.Location = New System.Drawing.Point(478, 304)
         Me.lblhargapermalam.Name = "lblhargapermalam"
         Me.lblhargapermalam.Size = New System.Drawing.Size(90, 28)
         Me.lblhargapermalam.TabIndex = 21
@@ -184,7 +185,7 @@ Partial Class CHECK_OUT
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(171, 274)
+        Me.Label6.Location = New System.Drawing.Point(162, 304)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(232, 28)
         Me.Label6.TabIndex = 20

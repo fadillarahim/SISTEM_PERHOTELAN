@@ -45,7 +45,7 @@
             form_check_out.Show()
 
         Else
-            MessageBox.Show("Silahkan Select terlebih dahulu data pada tabel selain ID")
+            MessageBox.Show("Silahkan Select terlebih dahulu data pada tabel Daftar Booking Kamar Hotel")
         End If
 
     End Sub

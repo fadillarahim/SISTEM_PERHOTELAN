@@ -41,8 +41,9 @@ Partial Class PILIH_KAMAR
         '
         'DataGridViewPilihKamar
         '
+        Me.DataGridViewPilihKamar.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.DataGridViewPilihKamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewPilihKamar.Location = New System.Drawing.Point(67, 103)
+        Me.DataGridViewPilihKamar.Location = New System.Drawing.Point(67, 121)
         Me.DataGridViewPilihKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridViewPilihKamar.Name = "DataGridViewPilihKamar"
         Me.DataGridViewPilihKamar.RowHeadersWidth = 51
@@ -61,19 +62,20 @@ Partial Class PILIH_KAMAR
         '
         'btnambil
         '
+        Me.btnambil.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.btnambil.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnambil.Location = New System.Drawing.Point(315, 366)
+        Me.btnambil.Location = New System.Drawing.Point(314, 396)
         Me.btnambil.Name = "btnambil"
         Me.btnambil.Size = New System.Drawing.Size(180, 46)
         Me.btnambil.TabIndex = 38
         Me.btnambil.Text = "AMBIL"
-        Me.btnambil.UseVisualStyleBackColor = True
+        Me.btnambil.UseVisualStyleBackColor = False
         '
         'PILIH_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 497)
         Me.Controls.Add(Me.btnambil)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)

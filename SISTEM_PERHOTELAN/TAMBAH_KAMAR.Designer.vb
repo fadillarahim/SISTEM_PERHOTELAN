@@ -36,11 +36,11 @@ Partial Class TAMBAH_KAMAR
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Poor Richard", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(719, 176)
+        Me.Label4.Font = New System.Drawing.Font("Poor Richard", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Location = New System.Drawing.Point(728, 169)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(133, 28)
+        Me.Label4.Size = New System.Drawing.Size(148, 31)
         Me.Label4.TabIndex = 34
         Me.Label4.Text = "Jenis Kamar"
         '
@@ -57,6 +57,7 @@ Partial Class TAMBAH_KAMAR
         '
         'DataGridViewJenisKamar
         '
+        Me.DataGridViewJenisKamar.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.DataGridViewJenisKamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridViewJenisKamar.Location = New System.Drawing.Point(579, 246)
         Me.DataGridViewJenisKamar.Margin = New System.Windows.Forms.Padding(4)
@@ -78,6 +79,7 @@ Partial Class TAMBAH_KAMAR
         '
         'BtnSimpan
         '
+        Me.BtnSimpan.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnSimpan.Font = New System.Drawing.Font("Poor Richard", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSimpan.Location = New System.Drawing.Point(87, 477)
         Me.BtnSimpan.Margin = New System.Windows.Forms.Padding(4)
@@ -85,7 +87,7 @@ Partial Class TAMBAH_KAMAR
         Me.BtnSimpan.Size = New System.Drawing.Size(133, 41)
         Me.BtnSimpan.TabIndex = 30
         Me.BtnSimpan.Text = "SIMPAN" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.BtnSimpan.UseVisualStyleBackColor = True
+        Me.BtnSimpan.UseVisualStyleBackColor = False
         '
         'TxtNamaKamar
         '
@@ -122,7 +124,7 @@ Partial Class TAMBAH_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1116, 630)
+        Me.ClientSize = New System.Drawing.Size(1116, 570)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.LblJenisKamarValue)
         Me.Controls.Add(Me.DataGridViewJenisKamar)

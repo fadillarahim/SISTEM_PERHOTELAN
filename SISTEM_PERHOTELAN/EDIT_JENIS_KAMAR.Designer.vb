@@ -74,15 +74,16 @@ Partial Class EDIT_JENIS_KAMAR
         '
         Me.LblJenisKamar.AutoSize = True
         Me.LblJenisKamar.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblJenisKamar.Location = New System.Drawing.Point(248, 84)
+        Me.LblJenisKamar.Location = New System.Drawing.Point(258, 55)
         Me.LblJenisKamar.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblJenisKamar.Name = "LblJenisKamar"
-        Me.LblJenisKamar.Size = New System.Drawing.Size(221, 35)
+        Me.LblJenisKamar.Size = New System.Drawing.Size(270, 35)
         Me.LblJenisKamar.TabIndex = 15
-        Me.LblJenisKamar.Text = "Edit Jenis Kamar"
+        Me.LblJenisKamar.Text = "EDIT JENIS KAMAR"
         '
         'BtnSimpanJenisKamar
         '
+        Me.BtnSimpanJenisKamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnSimpanJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
         Me.BtnSimpanJenisKamar.Location = New System.Drawing.Point(500, 314)
         Me.BtnSimpanJenisKamar.Margin = New System.Windows.Forms.Padding(4)
@@ -90,7 +91,7 @@ Partial Class EDIT_JENIS_KAMAR
         Me.BtnSimpanJenisKamar.Size = New System.Drawing.Size(147, 52)
         Me.BtnSimpanJenisKamar.TabIndex = 14
         Me.BtnSimpanJenisKamar.Text = "SIMPAN"
-        Me.BtnSimpanJenisKamar.UseVisualStyleBackColor = True
+        Me.BtnSimpanJenisKamar.UseVisualStyleBackColor = False
         '
         'EDIT_JENIS_KAMAR
         '

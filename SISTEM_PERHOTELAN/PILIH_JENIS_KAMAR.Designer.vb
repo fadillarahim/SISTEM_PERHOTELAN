@@ -30,26 +30,28 @@ Partial Class PILIH_JENIS_KAMAR
         '
         'btnambiljeniskamar
         '
+        Me.btnambiljeniskamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.btnambiljeniskamar.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnambiljeniskamar.Location = New System.Drawing.Point(309, 389)
+        Me.btnambiljeniskamar.Location = New System.Drawing.Point(308, 405)
         Me.btnambiljeniskamar.Name = "btnambiljeniskamar"
         Me.btnambiljeniskamar.Size = New System.Drawing.Size(180, 46)
         Me.btnambiljeniskamar.TabIndex = 40
         Me.btnambiljeniskamar.Text = "AMBIL"
-        Me.btnambiljeniskamar.UseVisualStyleBackColor = True
+        Me.btnambiljeniskamar.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(243, 27)
+        Me.Label1.Location = New System.Drawing.Point(193, 29)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(323, 35)
+        Me.Label1.Size = New System.Drawing.Size(422, 35)
         Me.Label1.TabIndex = 39
-        Me.Label1.Text = "DAFTAR JENIS KAMAR"
+        Me.Label1.Text = "DAFTAR JENIS KAMAR HOTEL"
         '
         'dgvambiljeniskamar
         '
+        Me.dgvambiljeniskamar.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.dgvambiljeniskamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvambiljeniskamar.Location = New System.Drawing.Point(176, 96)
         Me.dgvambiljeniskamar.Name = "dgvambiljeniskamar"
@@ -62,7 +64,7 @@ Partial Class PILIH_JENIS_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 497)
         Me.Controls.Add(Me.btnambiljeniskamar)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.dgvambiljeniskamar)

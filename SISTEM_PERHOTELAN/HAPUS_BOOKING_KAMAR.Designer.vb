@@ -28,18 +28,20 @@ Partial Class HAPUS_BOOKING_KAMAR
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblidbooking = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.btntidak = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BtnHapus
         '
+        Me.BtnHapus.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnHapus.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.BtnHapus.Location = New System.Drawing.Point(320, 343)
+        Me.BtnHapus.Location = New System.Drawing.Point(491, 344)
         Me.BtnHapus.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnHapus.Name = "BtnHapus"
         Me.BtnHapus.Size = New System.Drawing.Size(123, 54)
         Me.BtnHapus.TabIndex = 11
         Me.BtnHapus.Text = "HAPUS"
-        Me.BtnHapus.UseVisualStyleBackColor = True
+        Me.BtnHapus.UseVisualStyleBackColor = False
         '
         'lblnamatamu
         '
@@ -100,11 +102,24 @@ Partial Class HAPUS_BOOKING_KAMAR
         Me.Label2.Text = "Nama Tamu"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'btntidak
+        '
+        Me.btntidak.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.btntidak.Font = New System.Drawing.Font("Poor Richard", 13.8!)
+        Me.btntidak.Location = New System.Drawing.Point(155, 344)
+        Me.btntidak.Margin = New System.Windows.Forms.Padding(4)
+        Me.btntidak.Name = "btntidak"
+        Me.btntidak.Size = New System.Drawing.Size(123, 54)
+        Me.btntidak.TabIndex = 15
+        Me.btntidak.Text = "TIDAK"
+        Me.btntidak.UseVisualStyleBackColor = False
+        '
         'HAPUS_BOOKING_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btntidak)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblidbooking)
         Me.Controls.Add(Me.Label1)
@@ -124,4 +139,5 @@ Partial Class HAPUS_BOOKING_KAMAR
     Friend WithEvents Label1 As Label
     Friend WithEvents lblidbooking As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents btntidak As Button
 End Class

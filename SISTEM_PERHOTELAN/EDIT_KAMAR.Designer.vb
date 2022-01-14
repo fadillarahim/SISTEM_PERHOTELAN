@@ -36,22 +36,23 @@ Partial Class EDIT_KAMAR
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Poor Richard", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(721, 168)
+        Me.Label4.Font = New System.Drawing.Font("Poor Richard", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Location = New System.Drawing.Point(728, 170)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(133, 28)
+        Me.Label4.Size = New System.Drawing.Size(148, 31)
         Me.Label4.TabIndex = 41
         Me.Label4.Text = "Jenis Kamar"
         '
         'DataGridViewJenisKamar
         '
+        Me.DataGridViewJenisKamar.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.DataGridViewJenisKamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewJenisKamar.Location = New System.Drawing.Point(581, 238)
+        Me.DataGridViewJenisKamar.Location = New System.Drawing.Point(568, 238)
         Me.DataGridViewJenisKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridViewJenisKamar.Name = "DataGridViewJenisKamar"
         Me.DataGridViewJenisKamar.RowHeadersWidth = 51
-        Me.DataGridViewJenisKamar.Size = New System.Drawing.Size(455, 185)
+        Me.DataGridViewJenisKamar.Size = New System.Drawing.Size(467, 185)
         Me.DataGridViewJenisKamar.TabIndex = 40
         '
         'LabelJenisKamarValue
@@ -78,14 +79,15 @@ Partial Class EDIT_KAMAR
         '
         'BtnSimpan
         '
+        Me.BtnSimpan.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnSimpan.Font = New System.Drawing.Font("Poor Richard", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSimpan.Location = New System.Drawing.Point(74, 463)
+        Me.BtnSimpan.Location = New System.Drawing.Point(74, 468)
         Me.BtnSimpan.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnSimpan.Name = "BtnSimpan"
-        Me.BtnSimpan.Size = New System.Drawing.Size(125, 41)
+        Me.BtnSimpan.Size = New System.Drawing.Size(138, 50)
         Me.BtnSimpan.TabIndex = 37
         Me.BtnSimpan.Text = "SIMPAN"
-        Me.BtnSimpan.UseVisualStyleBackColor = True
+        Me.BtnSimpan.UseVisualStyleBackColor = False
         '
         'TxtNamaKamar
         '

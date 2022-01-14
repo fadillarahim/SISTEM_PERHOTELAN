@@ -17,4 +17,9 @@
     Private Sub LblJenisKamarHapus_Click(sender As Object, e As EventArgs) Handles LblJenisKamarHapus.Click
 
     End Sub
+
+    Private Sub btntidak_Click(sender As Object, e As EventArgs) Handles btntidak.Click
+
+        Me.Close()
+    End Sub
 End Class

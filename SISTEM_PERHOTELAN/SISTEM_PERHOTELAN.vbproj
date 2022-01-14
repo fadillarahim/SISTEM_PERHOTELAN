@@ -48,29 +48,11 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
-      <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
-      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
-      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
-      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.8.0.27\lib\net452\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
-    </Reference>
     <Reference Include="System.ComponentModel" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -79,16 +61,6 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -136,34 +108,29 @@
     <Compile Include="CHECK_OUT.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CLASS_KAMAR.vb" />
+    <Compile Include="DAFTAR_TAMU.Designer.vb">
+      <DependentUpon>DAFTAR_TAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DAFTAR_TAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="EDIT_JENIS_KAMAR.Designer.vb">
       <DependentUpon>EDIT_JENIS_KAMAR.vb</DependentUpon>
     </Compile>
     <Compile Include="EDIT_JENIS_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HAPUS_JENIS_KAMAR.Designer.vb">
-      <DependentUpon>HAPUS_JENIS_KAMAR.vb</DependentUpon>
+    <Compile Include="EDIT_KAMAR.Designer.vb">
+      <DependentUpon>EDIT_KAMAR.vb</DependentUpon>
     </Compile>
-    <Compile Include="HAPUS_JENIS_KAMAR.vb">
+    <Compile Include="EDIT_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PILIH_KAMAR.Designer.vb">
-      <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
+    <Compile Include="EDIT_TAMU.Designer.vb">
+      <DependentUpon>EDIT_TAMU.vb</DependentUpon>
     </Compile>
-    <Compile Include="PILIH_KAMAR.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PILIH_JENIS_KAMAR.Designer.vb">
-      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PILIH_JENIS_KAMAR.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PILIH_TAMU.Designer.vb">
-      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PILIH_TAMU.vb">
+    <Compile Include="EDIT_TAMU.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HAPUS_BOOKING_KAMAR.Designer.vb">
@@ -172,26 +139,43 @@
     <Compile Include="HAPUS_BOOKING_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JENIS_KAMAR.vb">
+    <Compile Include="HAPUS_JENIS_KAMAR.Designer.vb">
+      <DependentUpon>HAPUS_JENIS_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HAPUS_JENIS_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JENIS_KAMAR.Designer.vb">
-      <DependentUpon>JENIS_KAMAR.vb</DependentUpon>
+    <Compile Include="HAPUS_KAMAR.Designer.vb">
+      <DependentUpon>HAPUS_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HAPUS_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PILIH_JENIS_KAMAR.Designer.vb">
-      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
+    <Compile Include="HAPUS_TAMU.Designer.vb">
+      <DependentUpon>HAPUS_TAMU.vb</DependentUpon>
     </Compile>
-    <Compile Include="PILIH_JENIS_KAMAR.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TAMBAH_JENIS_KAMAR.Designer.vb">
-      <DependentUpon>TAMBAH_JENIS_KAMAR.vb</DependentUpon>
-    </Compile>
-    <Compile Include="TAMBAH_JENIS_KAMAR.vb">
+    <Compile Include="HAPUS_TAMU.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="JenisKamar.vb" />
+    <Compile Include="JENIS_KAMAR.Designer.vb">
+      <DependentUpon>JENIS_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JENIS_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KAMAR.Designer.vb">
+      <DependentUpon>KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -208,10 +192,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PILIH_JENIS_KAMAR.Designer.vb">
+      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_JENIS_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PILIH_KAMAR.Designer.vb">
       <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
     </Compile>
     <Compile Include="PILIH_KAMAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PILIH_TAMU.Designer.vb">
+      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PILIH_TAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIGN_UP.Designer.vb">
+      <DependentUpon>SIGN_UP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SIGN_UP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TAMBAH_JENIS_KAMAR.Designer.vb">
+      <DependentUpon>TAMBAH_JENIS_KAMAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TAMBAH_JENIS_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TAMBAH_KAMAR.Designer.vb">
@@ -220,7 +228,20 @@
     <Compile Include="TAMBAH_KAMAR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <None Include="packages.config" />
+    <Compile Include="TAMBAH_TAMU.Designer.vb">
+      <DependentUpon>TAMBAH_TAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TAMBAH_TAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TAMU.vb" />
+    <Compile Include="USERS.vb" />
+    <Compile Include="WELCOME_PAGE.Designer.vb">
+      <DependentUpon>WELCOME_PAGE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WELCOME_PAGE.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BOOKING_KAMAR.resx">
@@ -232,23 +253,38 @@
     <EmbeddedResource Include="CHECK_OUT.resx">
       <DependentUpon>CHECK_OUT.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DAFTAR_TAMU.resx">
+      <DependentUpon>DAFTAR_TAMU.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EDIT_JENIS_KAMAR.resx">
       <DependentUpon>EDIT_JENIS_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIT_KAMAR.resx">
+      <DependentUpon>EDIT_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIT_TAMU.resx">
+      <DependentUpon>EDIT_TAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HAPUS_BOOKING_KAMAR.resx">
+      <DependentUpon>HAPUS_BOOKING_KAMAR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HAPUS_JENIS_KAMAR.resx">
       <DependentUpon>HAPUS_JENIS_KAMAR.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PILIH_KAMAR.resx">
-      <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
+    <EmbeddedResource Include="HAPUS_KAMAR.resx">
+      <DependentUpon>HAPUS_KAMAR.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PILIH_JENIS_KAMAR.resx">
-      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
+    <EmbeddedResource Include="HAPUS_TAMU.resx">
+      <DependentUpon>HAPUS_TAMU.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PILIH_TAMU.resx">
-      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
+    <EmbeddedResource Include="JENIS_KAMAR.resx">
+      <DependentUpon>JENIS_KAMAR.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HAPUS_BOOKING_KAMAR.resx">
-      <DependentUpon>HAPUS_BOOKING_KAMAR.vb</DependentUpon>
+    <EmbeddedResource Include="KAMAR.resx">
+      <DependentUpon>KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -256,11 +292,29 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_JENIS_KAMAR.resx">
+      <DependentUpon>PILIH_JENIS_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PILIH_KAMAR.resx">
       <DependentUpon>PILIH_KAMAR.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PILIH_TAMU.resx">
+      <DependentUpon>PILIH_TAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SIGN_UP.resx">
+      <DependentUpon>SIGN_UP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAMBAH_JENIS_KAMAR.resx">
+      <DependentUpon>TAMBAH_JENIS_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TAMBAH_KAMAR.resx">
       <DependentUpon>TAMBAH_KAMAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAMBAH_TAMU.resx">
+      <DependentUpon>TAMBAH_TAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WELCOME_PAGE.resx">
+      <DependentUpon>WELCOME_PAGE.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

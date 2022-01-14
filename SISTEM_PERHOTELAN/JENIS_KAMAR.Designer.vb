@@ -43,7 +43,7 @@ Partial Class JENIS_KAMAR
         '
         Me.LblJenisKamar.AutoSize = True
         Me.LblJenisKamar.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblJenisKamar.Location = New System.Drawing.Point(259, 58)
+        Me.LblJenisKamar.Location = New System.Drawing.Point(384, 138)
         Me.LblJenisKamar.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblJenisKamar.Name = "LblJenisKamar"
         Me.LblJenisKamar.Size = New System.Drawing.Size(0, 35)
@@ -51,41 +51,45 @@ Partial Class JENIS_KAMAR
         '
         'BtnHapusJenisKamar
         '
-        Me.BtnHapusJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.BtnHapusJenisKamar.Location = New System.Drawing.Point(450, 480)
+        Me.BtnHapusJenisKamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.BtnHapusJenisKamar.Font = New System.Drawing.Font("Poor Richard", 14.0!)
+        Me.BtnHapusJenisKamar.Location = New System.Drawing.Point(654, 560)
         Me.BtnHapusJenisKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnHapusJenisKamar.Name = "BtnHapusJenisKamar"
-        Me.BtnHapusJenisKamar.Size = New System.Drawing.Size(103, 42)
+        Me.BtnHapusJenisKamar.Size = New System.Drawing.Size(130, 53)
         Me.BtnHapusJenisKamar.TabIndex = 9
         Me.BtnHapusJenisKamar.Text = "HAPUS"
-        Me.BtnHapusJenisKamar.UseVisualStyleBackColor = True
+        Me.BtnHapusJenisKamar.UseVisualStyleBackColor = False
         '
         'BtnEditJenisKamar
         '
-        Me.BtnEditJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.BtnEditJenisKamar.Location = New System.Drawing.Point(294, 480)
+        Me.BtnEditJenisKamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.BtnEditJenisKamar.Font = New System.Drawing.Font("Poor Richard", 14.0!)
+        Me.BtnEditJenisKamar.Location = New System.Drawing.Point(406, 560)
         Me.BtnEditJenisKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnEditJenisKamar.Name = "BtnEditJenisKamar"
-        Me.BtnEditJenisKamar.Size = New System.Drawing.Size(120, 42)
+        Me.BtnEditJenisKamar.Size = New System.Drawing.Size(130, 53)
         Me.BtnEditJenisKamar.TabIndex = 8
         Me.BtnEditJenisKamar.Text = "EDIT"
-        Me.BtnEditJenisKamar.UseVisualStyleBackColor = True
+        Me.BtnEditJenisKamar.UseVisualStyleBackColor = False
         '
         'BtnTambahJenisKamar
         '
-        Me.BtnTambahJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.BtnTambahJenisKamar.Location = New System.Drawing.Point(113, 480)
+        Me.BtnTambahJenisKamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.BtnTambahJenisKamar.Font = New System.Drawing.Font("Poor Richard", 14.0!)
+        Me.BtnTambahJenisKamar.Location = New System.Drawing.Point(152, 560)
         Me.BtnTambahJenisKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnTambahJenisKamar.Name = "BtnTambahJenisKamar"
-        Me.BtnTambahJenisKamar.Size = New System.Drawing.Size(132, 42)
+        Me.BtnTambahJenisKamar.Size = New System.Drawing.Size(146, 53)
         Me.BtnTambahJenisKamar.TabIndex = 7
         Me.BtnTambahJenisKamar.Text = "TAMBAH"
-        Me.BtnTambahJenisKamar.UseVisualStyleBackColor = True
+        Me.BtnTambahJenisKamar.UseVisualStyleBackColor = False
         '
         'DataGridViewJenisKamar
         '
+        Me.DataGridViewJenisKamar.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.DataGridViewJenisKamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewJenisKamar.Location = New System.Drawing.Point(113, 119)
+        Me.DataGridViewJenisKamar.Location = New System.Drawing.Point(238, 177)
         Me.DataGridViewJenisKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridViewJenisKamar.Name = "DataGridViewJenisKamar"
         Me.DataGridViewJenisKamar.RowHeadersWidth = 51
@@ -94,60 +98,61 @@ Partial Class JENIS_KAMAR
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BOOKINGKAMARToolStripMenuItem, Me.TAMUToolStripMenuItem, Me.JENISKAMARToolStripMenuItem, Me.KAMARToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(684, 31)
+        Me.MenuStrip1.Size = New System.Drawing.Size(916, 39)
         Me.MenuStrip1.TabIndex = 11
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'BOOKINGKAMARToolStripMenuItem
         '
         Me.BOOKINGKAMARToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CHECKINToolStripMenuItem, Me.CHECKOUTToolStripMenuItem})
-        Me.BOOKINGKAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 12.0!)
+        Me.BOOKINGKAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 16.0!)
         Me.BOOKINGKAMARToolStripMenuItem.Name = "BOOKINGKAMARToolStripMenuItem"
-        Me.BOOKINGKAMARToolStripMenuItem.Size = New System.Drawing.Size(182, 27)
+        Me.BOOKINGKAMARToolStripMenuItem.Size = New System.Drawing.Size(242, 35)
         Me.BOOKINGKAMARToolStripMenuItem.Text = "BOOKING KAMAR"
         '
         'CHECKINToolStripMenuItem
         '
         Me.CHECKINToolStripMenuItem.Name = "CHECKINToolStripMenuItem"
-        Me.CHECKINToolStripMenuItem.Size = New System.Drawing.Size(197, 28)
+        Me.CHECKINToolStripMenuItem.Size = New System.Drawing.Size(241, 36)
         Me.CHECKINToolStripMenuItem.Text = "CHECK IN"
         '
         'CHECKOUTToolStripMenuItem
         '
         Me.CHECKOUTToolStripMenuItem.Name = "CHECKOUTToolStripMenuItem"
-        Me.CHECKOUTToolStripMenuItem.Size = New System.Drawing.Size(197, 28)
+        Me.CHECKOUTToolStripMenuItem.Size = New System.Drawing.Size(241, 36)
         Me.CHECKOUTToolStripMenuItem.Text = "CHECK OUT"
         '
         'TAMUToolStripMenuItem
         '
-        Me.TAMUToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 12.0!)
+        Me.TAMUToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 16.0!)
         Me.TAMUToolStripMenuItem.Name = "TAMUToolStripMenuItem"
-        Me.TAMUToolStripMenuItem.Size = New System.Drawing.Size(75, 27)
+        Me.TAMUToolStripMenuItem.Size = New System.Drawing.Size(99, 35)
         Me.TAMUToolStripMenuItem.Text = "TAMU"
         '
         'JENISKAMARToolStripMenuItem
         '
-        Me.JENISKAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 12.0!)
+        Me.JENISKAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 16.0!)
         Me.JENISKAMARToolStripMenuItem.Name = "JENISKAMARToolStripMenuItem"
-        Me.JENISKAMARToolStripMenuItem.Size = New System.Drawing.Size(139, 27)
+        Me.JENISKAMARToolStripMenuItem.Size = New System.Drawing.Size(187, 35)
         Me.JENISKAMARToolStripMenuItem.Text = "JENIS KAMAR"
         '
         'KAMARToolStripMenuItem
         '
-        Me.KAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 12.0!)
+        Me.KAMARToolStripMenuItem.Font = New System.Drawing.Font("Poor Richard", 16.0!)
         Me.KAMARToolStripMenuItem.Name = "KAMARToolStripMenuItem"
-        Me.KAMARToolStripMenuItem.Size = New System.Drawing.Size(91, 27)
+        Me.KAMARToolStripMenuItem.Size = New System.Drawing.Size(121, 35)
         Me.KAMARToolStripMenuItem.Text = "KAMAR"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(131, 58)
+        Me.Label1.Location = New System.Drawing.Point(256, 90)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(422, 35)
         Me.Label1.TabIndex = 12
@@ -157,7 +162,7 @@ Partial Class JENIS_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(684, 577)
+        Me.ClientSize = New System.Drawing.Size(916, 720)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LblJenisKamar)
         Me.Controls.Add(Me.BtnHapusJenisKamar)

@@ -25,29 +25,31 @@ Partial Class HAPUS_JENIS_KAMAR
         Me.BtnHapusJenisKamar = New System.Windows.Forms.Button()
         Me.LblJenisKamarHapus = New System.Windows.Forms.Label()
         Me.LblJudul = New System.Windows.Forms.Label()
+        Me.btntidak = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BtnHapusJenisKamar
         '
+        Me.BtnHapusJenisKamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnHapusJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
-        Me.BtnHapusJenisKamar.Location = New System.Drawing.Point(331, 302)
+        Me.BtnHapusJenisKamar.Location = New System.Drawing.Point(494, 327)
         Me.BtnHapusJenisKamar.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnHapusJenisKamar.Name = "BtnHapusJenisKamar"
         Me.BtnHapusJenisKamar.Size = New System.Drawing.Size(123, 54)
         Me.BtnHapusJenisKamar.TabIndex = 5
         Me.BtnHapusJenisKamar.Text = "HAPUS"
-        Me.BtnHapusJenisKamar.UseVisualStyleBackColor = True
+        Me.BtnHapusJenisKamar.UseVisualStyleBackColor = False
         '
         'LblJenisKamarHapus
         '
-        Me.LblJenisKamarHapus.AutoSize = True
         Me.LblJenisKamarHapus.Font = New System.Drawing.Font("Poor Richard", 24.0!, System.Drawing.FontStyle.Bold)
-        Me.LblJenisKamarHapus.Location = New System.Drawing.Point(323, 190)
+        Me.LblJenisKamarHapus.Location = New System.Drawing.Point(230, 193)
         Me.LblJenisKamarHapus.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblJenisKamarHapus.Name = "LblJenisKamarHapus"
-        Me.LblJenisKamarHapus.Size = New System.Drawing.Size(214, 47)
+        Me.LblJenisKamarHapus.Size = New System.Drawing.Size(322, 66)
         Me.LblJenisKamarHapus.TabIndex = 4
         Me.LblJenisKamarHapus.Text = "Jenis Kamar"
+        Me.LblJenisKamarHapus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'LblJudul
         '
@@ -60,11 +62,24 @@ Partial Class HAPUS_JENIS_KAMAR
         Me.LblJudul.TabIndex = 3
         Me.LblJudul.Text = "Apakah Anda Ingin menghapus jenis kamar?"
         '
+        'btntidak
+        '
+        Me.btntidak.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.btntidak.Font = New System.Drawing.Font("Poor Richard", 13.8!)
+        Me.btntidak.Location = New System.Drawing.Point(178, 327)
+        Me.btntidak.Margin = New System.Windows.Forms.Padding(4)
+        Me.btntidak.Name = "btntidak"
+        Me.btntidak.Size = New System.Drawing.Size(123, 54)
+        Me.btntidak.TabIndex = 6
+        Me.btntidak.Text = "TIDAK"
+        Me.btntidak.UseVisualStyleBackColor = False
+        '
         'HAPUS_JENIS_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btntidak)
         Me.Controls.Add(Me.BtnHapusJenisKamar)
         Me.Controls.Add(Me.LblJenisKamarHapus)
         Me.Controls.Add(Me.LblJudul)
@@ -78,4 +93,5 @@ Partial Class HAPUS_JENIS_KAMAR
     Friend WithEvents BtnHapusJenisKamar As Button
     Friend WithEvents LblJenisKamarHapus As Label
     Friend WithEvents LblJudul As Label
+    Friend WithEvents btntidak As Button
 End Class

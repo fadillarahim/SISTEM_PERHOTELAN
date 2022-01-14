@@ -39,14 +39,15 @@ Partial Class CHECK_IN
         '
         'BtnCheckIn
         '
+        Me.BtnCheckIn.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnCheckIn.Font = New System.Drawing.Font("Poor Richard", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCheckIn.Location = New System.Drawing.Point(350, 354)
+        Me.BtnCheckIn.Location = New System.Drawing.Point(308, 366)
         Me.BtnCheckIn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnCheckIn.Name = "BtnCheckIn"
-        Me.BtnCheckIn.Size = New System.Drawing.Size(131, 31)
+        Me.BtnCheckIn.Size = New System.Drawing.Size(150, 51)
         Me.BtnCheckIn.TabIndex = 25
         Me.BtnCheckIn.Text = "CHECK IN"
-        Me.BtnCheckIn.UseVisualStyleBackColor = True
+        Me.BtnCheckIn.UseVisualStyleBackColor = False
         '
         'BtnAmbilData3
         '
@@ -161,10 +162,10 @@ Partial Class CHECK_IN
         'LblLogoCI
         '
         Me.LblLogoCI.AutoSize = True
-        Me.LblLogoCI.Font = New System.Drawing.Font("Poor Richard", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblLogoCI.Location = New System.Drawing.Point(334, 65)
+        Me.LblLogoCI.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.LblLogoCI.Location = New System.Drawing.Point(302, 34)
         Me.LblLogoCI.Name = "LblLogoCI"
-        Me.LblLogoCI.Size = New System.Drawing.Size(143, 31)
+        Me.LblLogoCI.Size = New System.Drawing.Size(157, 35)
         Me.LblLogoCI.TabIndex = 13
         Me.LblLogoCI.Text = "CHECK-IN"
         '

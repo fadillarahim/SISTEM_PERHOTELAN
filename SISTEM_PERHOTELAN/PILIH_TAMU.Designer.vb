@@ -30,6 +30,7 @@ Partial Class PILIH_TAMU
         '
         'dgvambiltamu
         '
+        Me.dgvambiltamu.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.dgvambiltamu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvambiltamu.Location = New System.Drawing.Point(89, 113)
         Me.dgvambiltamu.Name = "dgvambiltamu"
@@ -50,13 +51,14 @@ Partial Class PILIH_TAMU
         '
         'btnambiltamu
         '
+        Me.btnambiltamu.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.btnambiltamu.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnambiltamu.Location = New System.Drawing.Point(309, 410)
         Me.btnambiltamu.Name = "btnambiltamu"
         Me.btnambiltamu.Size = New System.Drawing.Size(180, 46)
         Me.btnambiltamu.TabIndex = 37
         Me.btnambiltamu.Text = "AMBIL"
-        Me.btnambiltamu.UseVisualStyleBackColor = True
+        Me.btnambiltamu.UseVisualStyleBackColor = False
         '
         'PILIH_TAMU
         '

@@ -23,15 +23,16 @@ Partial Class TAMBAH_JENIS_KAMAR
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.BtnTambahJenisKamar = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TxtHargaKamarPermalam = New System.Windows.Forms.TextBox()
         Me.TxtJenisKamar = New System.Windows.Forms.TextBox()
         Me.LblHargaKamarPermalam = New System.Windows.Forms.Label()
         Me.LblKeteranganJenisKamar = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'BtnTambahJenisKamar
         '
+        Me.BtnTambahJenisKamar.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnTambahJenisKamar.Font = New System.Drawing.Font("Poor Richard", 13.8!)
         Me.BtnTambahJenisKamar.Location = New System.Drawing.Point(523, 306)
         Me.BtnTambahJenisKamar.Margin = New System.Windows.Forms.Padding(4)
@@ -39,18 +40,7 @@ Partial Class TAMBAH_JENIS_KAMAR
         Me.BtnTambahJenisKamar.Size = New System.Drawing.Size(135, 52)
         Me.BtnTambahJenisKamar.TabIndex = 25
         Me.BtnTambahJenisKamar.Text = "TAMBAH"
-        Me.BtnTambahJenisKamar.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(238, 93)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(269, 35)
-        Me.Label1.TabIndex = 24
-        Me.Label1.Text = "Tambah Jenis Kamar"
+        Me.BtnTambahJenisKamar.UseVisualStyleBackColor = False
         '
         'TxtHargaKamarPermalam
         '
@@ -92,13 +82,23 @@ Partial Class TAMBAH_JENIS_KAMAR
         Me.LblKeteranganJenisKamar.TabIndex = 20
         Me.LblKeteranganJenisKamar.Text = "Jenis Kamar"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(176, 62)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(434, 35)
+        Me.Label1.TabIndex = 47
+        Me.Label1.Text = "TAMBAH JENIS KAMAR HOTEL"
+        '
         'TAMBAH_JENIS_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.BtnTambahJenisKamar)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BtnTambahJenisKamar)
         Me.Controls.Add(Me.TxtHargaKamarPermalam)
         Me.Controls.Add(Me.TxtJenisKamar)
         Me.Controls.Add(Me.LblHargaKamarPermalam)
@@ -111,9 +111,9 @@ Partial Class TAMBAH_JENIS_KAMAR
     End Sub
 
     Friend WithEvents BtnTambahJenisKamar As Button
-    Friend WithEvents Label1 As Label
     Friend WithEvents TxtHargaKamarPermalam As TextBox
     Friend WithEvents TxtJenisKamar As TextBox
     Friend WithEvents LblHargaKamarPermalam As Label
     Friend WithEvents LblKeteranganJenisKamar As Label
+    Friend WithEvents Label1 As Label
 End Class

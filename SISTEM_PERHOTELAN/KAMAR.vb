@@ -113,4 +113,10 @@ Public Class KAMAR
         form_tamu.Show()
         Me.Close()
     End Sub
+
+    Private Sub BOOKINGKAMARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BOOKINGKAMARToolStripMenuItem.Click
+        Dim form_booking_kamar = New BOOKING_KAMAR
+        form_booking_kamar.Show()
+        Me.Close()
+    End Sub
 End Class

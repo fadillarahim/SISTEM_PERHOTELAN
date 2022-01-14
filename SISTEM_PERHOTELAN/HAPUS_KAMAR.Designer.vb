@@ -22,74 +22,75 @@ Partial Class HAPUS_KAMAR
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnHapus = New System.Windows.Forms.Button()
         Me.LblNamaKamar = New System.Windows.Forms.Label()
-        Me.LblPertanyaan = New System.Windows.Forms.Label()
+        Me.btntidak = New System.Windows.Forms.Button()
+        Me.LblJudul = New System.Windows.Forms.Label()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(283, 45)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(225, 35)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "HAPUS KAMAR"
         '
         'BtnHapus
         '
-        Me.BtnHapus.Font = New System.Drawing.Font("Poor Richard", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapus.Location = New System.Drawing.Point(348, 356)
+        Me.BtnHapus.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.BtnHapus.Font = New System.Drawing.Font("Poor Richard", 14.0!)
+        Me.BtnHapus.Location = New System.Drawing.Point(500, 350)
         Me.BtnHapus.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnHapus.Name = "BtnHapus"
         Me.BtnHapus.Size = New System.Drawing.Size(121, 50)
         Me.BtnHapus.TabIndex = 6
         Me.BtnHapus.Text = "HAPUS"
-        Me.BtnHapus.UseVisualStyleBackColor = True
+        Me.BtnHapus.UseVisualStyleBackColor = False
         '
         'LblNamaKamar
         '
-        Me.LblNamaKamar.AutoSize = True
         Me.LblNamaKamar.Font = New System.Drawing.Font("Poor Richard", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblNamaKamar.Location = New System.Drawing.Point(314, 247)
+        Me.LblNamaKamar.Location = New System.Drawing.Point(201, 201)
         Me.LblNamaKamar.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblNamaKamar.Name = "LblNamaKamar"
-        Me.LblNamaKamar.Size = New System.Drawing.Size(200, 38)
+        Me.LblNamaKamar.Size = New System.Drawing.Size(396, 56)
         Me.LblNamaKamar.TabIndex = 5
         Me.LblNamaKamar.Text = "Nama Kamar"
+        Me.LblNamaKamar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'LblPertanyaan
+        'btntidak
         '
-        Me.LblPertanyaan.AutoSize = True
-        Me.LblPertanyaan.Font = New System.Drawing.Font("Poor Richard", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblPertanyaan.Location = New System.Drawing.Point(210, 156)
-        Me.LblPertanyaan.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.LblPertanyaan.Name = "LblPertanyaan"
-        Me.LblPertanyaan.Size = New System.Drawing.Size(381, 28)
-        Me.LblPertanyaan.TabIndex = 4
-        Me.LblPertanyaan.Text = "Apakah Anda Ingin Menghapus Kamar ?"
+        Me.btntidak.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.btntidak.Font = New System.Drawing.Font("Poor Richard", 13.8!)
+        Me.btntidak.Location = New System.Drawing.Point(182, 346)
+        Me.btntidak.Margin = New System.Windows.Forms.Padding(4)
+        Me.btntidak.Name = "btntidak"
+        Me.btntidak.Size = New System.Drawing.Size(123, 54)
+        Me.btntidak.TabIndex = 10
+        Me.btntidak.Text = "TIDAK"
+        Me.btntidak.UseVisualStyleBackColor = False
+        '
+        'LblJudul
+        '
+        Me.LblJudul.AutoSize = True
+        Me.LblJudul.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblJudul.Location = New System.Drawing.Point(135, 96)
+        Me.LblJudul.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblJudul.Name = "LblJudul"
+        Me.LblJudul.Size = New System.Drawing.Size(567, 35)
+        Me.LblJudul.TabIndex = 11
+        Me.LblJudul.Text = "Apakah Anda Ingin Menghapus Kamar Berikut?"
         '
         'HAPUS_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.LblJudul)
+        Me.Controls.Add(Me.btntidak)
         Me.Controls.Add(Me.BtnHapus)
         Me.Controls.Add(Me.LblNamaKamar)
-        Me.Controls.Add(Me.LblPertanyaan)
         Me.Name = "HAPUS_KAMAR"
         Me.Text = "HAPUS_KAMAR"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents BtnHapus As Button
     Friend WithEvents LblNamaKamar As Label
-    Friend WithEvents LblPertanyaan As Label
+    Friend WithEvents btntidak As Button
+    Friend WithEvents LblJudul As Label
 End Class

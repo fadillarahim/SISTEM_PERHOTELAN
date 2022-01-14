@@ -31,25 +31,28 @@ Partial Class BOOKING_KAMAR
         Me.TAMUToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.JENISKAMARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KAMARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.DataGridViewBooking, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
         'BtnHapus
         '
+        Me.BtnHapus.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.BtnHapus.Font = New System.Drawing.Font("Poor Richard", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapus.Location = New System.Drawing.Point(733, 390)
+        Me.BtnHapus.Location = New System.Drawing.Point(728, 585)
         Me.BtnHapus.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnHapus.Name = "BtnHapus"
-        Me.BtnHapus.Size = New System.Drawing.Size(134, 39)
+        Me.BtnHapus.Size = New System.Drawing.Size(157, 48)
         Me.BtnHapus.TabIndex = 7
         Me.BtnHapus.Text = "HAPUS"
-        Me.BtnHapus.UseVisualStyleBackColor = True
+        Me.BtnHapus.UseVisualStyleBackColor = False
         '
         'DataGridViewBooking
         '
+        Me.DataGridViewBooking.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(189, Byte), Integer))
         Me.DataGridViewBooking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewBooking.Location = New System.Drawing.Point(16, 87)
+        Me.DataGridViewBooking.Location = New System.Drawing.Point(34, 212)
         Me.DataGridViewBooking.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridViewBooking.Name = "DataGridViewBooking"
         Me.DataGridViewBooking.RowHeadersWidth = 62
@@ -59,6 +62,7 @@ Partial Class BOOKING_KAMAR
         '
         'MenuStrip
         '
+        Me.MenuStrip.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.MenuStrip.Font = New System.Drawing.Font("Poor Richard", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BOOKINGKAMARToolStripMenuItem, Me.TAMUToolStripMenuItem, Me.JENISKAMARToolStripMenuItem, Me.KAMARToolStripMenuItem})
@@ -107,11 +111,22 @@ Partial Class BOOKING_KAMAR
         Me.KAMARToolStripMenuItem.Size = New System.Drawing.Size(121, 35)
         Me.KAMARToolStripMenuItem.Text = "KAMAR"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poor Richard", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(222, 105)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(487, 35)
+        Me.Label1.TabIndex = 8
+        Me.Label1.Text = "DAFTAR BOOKING KAMAR HOTEL"
+        '
         'BOOKING_KAMAR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(916, 450)
+        Me.ClientSize = New System.Drawing.Size(916, 720)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnHapus)
         Me.Controls.Add(Me.DataGridViewBooking)
         Me.Controls.Add(Me.MenuStrip)
@@ -133,4 +148,5 @@ Partial Class BOOKING_KAMAR
     Friend WithEvents TAMUToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents JENISKAMARToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents KAMARToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Label1 As Label
 End Class
